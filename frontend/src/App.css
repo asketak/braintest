@@ -1,0 +1,75 @@
+/* src/App.css */
+
+.App-header {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-window {
+  width: 90%;
+  max-width: 600px;
+  height: 500px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user {
+  text-align: right;
+  background-color: #0d6efd;
+  color: white;
+  margin-left: 20%;
+  border-bottom-right-radius: 0;
+}
+
+.assistant {
+  text-align: left;
+  background-color: #e9ecef;
+  color: #333;
+  margin-right: 20%;
+  border-bottom-left-radius: 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
